@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    background-color: #007ca5;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    }
+
+/* Верхние ЛОГО */
+
+.header__inner {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    padding: 18px 0;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title__avatar {
+    width: 64px;
+    height: 87px;
+}
+
+.title__name {
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 20px;
+    text-align: center;
+}
+
+/* Основа */
+
+.intro__inner {
+ display: flex;
+    background-color: white;
+
+}
+
+/* Правая Часть */
+
+.intro__content {
+    width: 70%;
+}
+
+.content__inner {
+    display: flex;
+    justify-content: center;
+}
+
+.content__logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.content__text {
+padding-left: 50px;
+    padding-top: 30px;
+}
+
+/* Левая Часть */
+
+.intro__menu {
+    width: 30%;
+    border-right: 1px solid black;
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+}
+
+ul.nav {
+    list-style-type: none;
+    padding-left: 25px;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+ul.nav a {
+    display: block;
+    width: 220px;
+    line-height: 2.5em;
+    text-decoration: none;
+    color: black;
+}
+
+.personal {
+    display: flex;
+    flex-direction: column;
+    padding-left: 130px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+        line-height: 2.5em;
+}
+
+.personal__avatar {
+    width: 40px;
+    height: 54px;
+    padding-left: 23px;
+}
+
+.personal__name {
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+/* Форма Связи */
+
+.content__form {
+    display: flex;
+    justify-content: center;
+margin-top: 30px;
+}
+
+.button__form {
+    margin-left: 16px;
+    margin-top: 10px;
+    padding: 5px 40px;
+    text-decoration: none;
+    outline: none;
+  color: black;
+  text-transform: uppercase;
+  transition: .5s;
+
+}
+
+.button__form:hover {background-position: right center;}
+
+.area__form {
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+
+.area__text {
+    padding: 5px 10px;
+    margin-top: 10px;
+    width: 172px;
+    height: 100px;
+    resize: none;
+}
